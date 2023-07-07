@@ -8,13 +8,21 @@
 .top-container
 {
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
     align-items: center;
     padding: 20px;
     background-image: linear-gradient(to right,#17594A,#8EAC50,#D3D04F);
-   
+    /* width:100%;
+    max-width:1200px;
+    margin:0 auto; */
+    padding-left: 10vw;
+
     
 
+}
+
+.top{
+    margin-left: auto;
 }
 
 .nav-list
